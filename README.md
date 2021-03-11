@@ -46,6 +46,7 @@ Please write a small tool which lists all S3 buckets in an AWS account. It is en
 * After running ```docker-compose up``` everything should be up and running in one shot
 * We expect to reach the application on ```https://localhost/home```
 * Compose File format 3.x should be used.
+* Container images should a as small as possible in size. 
 
 ## Notes:
 
