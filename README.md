@@ -19,5 +19,13 @@ Please write a small tool which lists all S3 buckets in an AWS account. It is en
   * Installs *nginx* and updates the configuration. Create a systemd configuration which starts up nginx on failure and system startup/reboot.
 
 * Write a Terraform Resource which:
-  * creates an aws vpc with a public and a private subnet
-  * create
+  * Creates an aws vpc with a public and a private subnet
+  * Attaches an internet gateway to the public subnet
+  * Creates and attaches a NAT GW to the private subnet
+  * Creates and configures the route tables. 
+  * Creates a S3 bucket called **devops** which includes a directory called **homeworks** and creates and object in that directory called **test_objcet.txt**. At the end it should look similar to ```s3://devops/homeworks/test_obejct.txt```
+
+## **3. Application Management and Deployment**
+
+* Using the demo project in this repository: 
+  * 
