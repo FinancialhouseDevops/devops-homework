@@ -52,3 +52,7 @@ Please write a small tool which lists all S3 buckets in an AWS account. It is en
 
 Please push all the codes to your github account or any git hosting from where we can clone the repository.
 
+## Bonus: 
+
+Write a documentation.
+
