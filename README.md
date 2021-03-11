@@ -23,8 +23,8 @@ Please write a small tool which lists all S3 buckets in an AWS account. It is en
   * Attaches an internet gateway to the public subnet
   * Creates and attaches a NAT GW to the private subnet
   * Creates and configures the route tables. 
-  * Creates an S3 bucket called **devops** which includes a directory called **homeworks** and creates an encrypted object in that directory called **test_object.txt**. At the end it should look similar to ```s3://devops/homeworks/test_obejct.txt```
-  * The **test_object.txt** file is template which includes a user defined variable called **notes** which value is a list with any values of your choice. 
+  * Creates an S3 bucket called **devops** which includes a directory called **homeworks** and creates an encrypted object in that directory called **test_object.txt**. At the end it should look similar to ```s3://devops/homeworks/test_object.txt```
+  * The **test_object.txt** file is template which includes a user defined variable called **notes** which is a list with any values of your choice. 
 
 *Rules:*
 
